@@ -12,6 +12,9 @@ namespace tpmodul4_1302200040
             HaloGeneric<String> halo = new HaloGeneric<string>();
             halo.SapaUser<String>(ref X, ref Y);
             Console.WriteLine("Halo User " + Y);
+
+            DataGeneric data = new DataGeneric();
+            data.PrintData();
         }
     }
 }
