@@ -6,7 +6,12 @@ namespace tpmodul4_1302200040
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            String X, Y;
+            X = "Rian";
+            Y = "";
+            HaloGeneric<String> halo = new HaloGeneric<string>();
+            halo.SapaUser<String>(ref X, ref Y);
+            Console.WriteLine("Halo User " + Y);
         }
     }
 }
